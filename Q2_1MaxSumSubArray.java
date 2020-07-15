@@ -8,7 +8,12 @@ public class Q2_1 {
     // Explanation: Subarray with maximum sum is [5, 1, 3].
     // Input: [2, 3, 4, 1, 5], k=2 
     // Output: 7
-    // Explanation: Subarray with maximum sum is [3, 4].       
+    // Explanation: Subarray with maximum sum is [3, 4]. 
+    
+    // 窗口代表：子数组
+    // 扩：子数组长度没有到k
+    // 平移： 子数组长度=k，统计出最大子数组和
+    // 平移: left++,right++; 缩：left++,right不变
     public static int findMaxSumSubArray(int k ,int arr[]){
         if(arr == null) return -1;
         int n = arr.length;
