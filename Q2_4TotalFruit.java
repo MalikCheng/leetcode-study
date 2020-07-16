@@ -1,5 +1,7 @@
 import java.util.HashMap;
-public class Q2_4 {
+import java.util.Map;
+
+public class Q2_4TotalFruit {
     // leetcode 904  https://leetcode-cn.com/problems/fruit-into-baskets/
     public static void main(String[] args) {
 

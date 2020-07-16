@@ -1,4 +1,4 @@
-public class Q2_2 {
+public class Q2_2MinSubArrayLength {
     // 找到连续子数组之和大于等于S的最小长度
     // Example 1:
     // Input: [2, 1, 5, 2, 3, 2], S=7 

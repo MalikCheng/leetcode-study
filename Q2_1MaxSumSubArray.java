@@ -1,5 +1,5 @@
 
-public class Q2_1 {
+public class Q2_1MaxSumSubArray {
 
     // size = k的子数组和的最大值
    
@@ -11,7 +11,7 @@ public class Q2_1 {
     // Explanation: Subarray with maximum sum is [3, 4]. 
     
     // 窗口代表：子数组
-    // 扩：子数组长度没有到k
+    // 扩(添加新元素)：子数组长度没有到k
     // 平移： 子数组长度=k，统计出最大子数组和
     // 平移: left++,right++; 缩：left++,right不变
     public static int findMaxSumSubArray(int k ,int arr[]){
